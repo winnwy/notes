@@ -26,7 +26,6 @@ export const main = Util.handler(async (event) => {
   };
 
 	await dynamoDb.send(new UpdateCommand(params));
-
-  // Return the retrieved item
+	
   return JSON.stringify({status: true});
 });
