@@ -1,7 +1,5 @@
 /// <reference path="./.sst/platform/config.d.ts" />
 
-import { identityPool, userPool, userPoolClient } from "./infra/auth";
-
 export default $config({
   app(input) {
     return {

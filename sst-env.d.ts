@@ -9,7 +9,7 @@ declare module "sst" {
       "type": "sst.aws.ApiGatewayV2"
       "url": string
     }
-    "FrontEnd": {
+    "Frontend": {
       "type": "sst.aws.StaticSite"
       "url": string
     }
